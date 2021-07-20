@@ -1,5 +1,6 @@
 body {
-    background-color: #EAF6F6;
+    background-color: black;
+    color: white;
 }
 
 hr {
@@ -9,10 +10,82 @@ hr {
     border-width: 5px;
     width: 30%;
 }
-h2 {
+h1 {
     color: #66BFBF;
 }
 
-#ava {
+.ava {
+    display: block;
+    position: relative;
     border-radius: 100%;
+    max-width: 30%;
+    height: auto;    
+    margin-left: auto;
+    margin-right: auto;
 }
+
+.alignCenter {
+    margin: auto;
+    width:max-content;
+
+}
+.hero-image {
+    background: url(000054.JPG) no-repeat center;
+    background-size:cover;
+    height: 962px;
+    position: relative;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 100px;
+    text-align: center;
+
+}
+.hero-image h1 {
+    position:relative;
+    margin: auto;
+    width: 50%;
+    color: #362222;
+}
+
+.div1 {
+    display: block;
+    width: max-content;
+    text-align: center;
+    margin: 0px auto 0px auto;
+    font-size: 100%;
+}
+ .bigTitle {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 40%;
+ }
+
+.div1 h2 {
+    font-size: 2.5rem;
+}
+
+.div1 p {
+    font-size: 1.25rem;
+}
+
+.skills {
+}
+
+#tableSkill {
+    position: relative;
+    margin: auto;
+}
+.alignRight {
+    text-align: right;
+}
+
+.mediumTitle {
+    font-size:x-large;
+}
+
+.btn {
+    font-size: large;
+}
+
+
+
+
+    
