@@ -85,7 +85,7 @@ h1 {
     font-size: large;
 }
 
-body {
+.body2 {
     background: url(000067.JPG) no-repeat center;
     background-size:cover;
     height: max-content;
